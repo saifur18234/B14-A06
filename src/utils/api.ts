@@ -1,6 +1,6 @@
 import { Workout } from "@/types";
 
-// Keep the API utility usable even when the optional bundled data module is absent.
+
 const fallbackWorkouts: Workout[] = [];
 
 
