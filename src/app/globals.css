@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-bg: #0a0a0c;
+  --color-surface: #13151b;
+  --color-surface-2: #1b1e27;
+  --color-line: #23262f;
+  --color-accent: #ccff00;
+  --color-muted: #8b8f9a;
+  --font-display: var(--font-oswald), "Oswald", sans-serif;
+  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: #fff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: var(--font-display); text-transform: uppercase; }
+
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.spinner {
+  width: 40px; height: 40px; border-radius: 9999px;
+  border: 3px solid var(--color-line);
+  border-top-color: var(--color-accent);
+  animation: spin-slow 0.8s linear infinite;
 }
