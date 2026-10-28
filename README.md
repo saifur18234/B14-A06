@@ -48,10 +48,8 @@ metrics are calculated from the current plan.
 - Add user accounts and cloud-based data syncing.
 - Add more workout categories and progress analytics.
 
-FitLog --- Train hard, log honest.
+### FitLog --- Train hard, log honest.
 
-Github Repo: https://github.com/saifur18234/B14-A06.git
-Live link: https://assignment-6-tau-sand.vercel.app/
 
 ## Submission Links
 
