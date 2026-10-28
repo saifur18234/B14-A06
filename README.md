@@ -48,7 +48,10 @@ metrics are calculated from the current plan.
 - Add user accounts and cloud-based data syncing.
 - Add more workout categories and progress analytics.
 
+
+
 ### FitLog --- Train hard, log honest.
+
 
 
 ## Submission Links
