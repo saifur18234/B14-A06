@@ -23,10 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${oswald.variable} antialiased`}>
+      <body
+        className={`${inter.variable} ${oswald.variable} antialiased min-h-screen flex flex-col pb-20 sm:pb-0`}
+      >
         <PlanProvider>
           <Navbar />
-          <main className="min-h-screen pb-20 sm:pb-0">{children}</main>
+          <main className="grow pb-10">{children}</main>
           <Footer />
           <Toaster
             position="top-right"
