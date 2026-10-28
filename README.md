@@ -4,7 +4,7 @@ FitLog is a responsive workout library built with Next.js. Browse
 workouts, view detailed exercise information, create a daily workout
 plan, and save workouts for later.
 
-### Features
+## Features
 
 1. Workout Library: Browse workouts loaded from the FitLog API.
 2. Workout Details: Open a workout's dedicated page to see its
@@ -20,7 +20,7 @@ plan, and save workouts for later.
 7. Toast Notifications: Get feedback when adding, saving,
    completing, or removing workouts.
 
-### Technologies Used
+## Technologies Used
 
 - Next.js 15 (App Router)
 - React
@@ -29,28 +29,20 @@ plan, and save workouts for later.
 - React Context API
 - react-hot-toast
 
-#### API
+### API
 
 - All workouts: https://api.abcz.workers.dev/api/fitlog
 - A single workout: https://api.abcz.workers.dev/api/fitlog/3
   (replace 3 with the workout ID)
 
-### State Management
+## State Management
 
 The React Context API shares the workout plan and saved workouts across
 the Navbar, workout details page, and My Plan page. The plan summary
 metrics are calculated from the current plan.
 
-### Deployment
 
-The project can be deployed to Vercel:
-
-1. Push the project to GitHub.
-2. Import the repository into Vercel.
-3. Let Vercel detect the Next.js project.
-4. Deploy and open the generated live URL.
-
-### Future Improvements
+## Future Improvements
 
 - Add workout search and filtering.
 - Add user accounts and cloud-based data syncing.
@@ -61,65 +53,7 @@ FitLog --- Train hard, log honest.
 Github Repo: https://github.com/saifur18234/B14-A06.git
 Live link: https://assignment-6-tau-sand.vercel.app/
 
-# FitLog --- Workout Library
+## Submission Links
 
-FitLog is a responsive workout library built with Next.js. Browse
-workouts, view detailed exercise information, create a daily workout
-plan, and save workouts for later.
-
-### Features
-
-1. Workout Library: Browse workouts loaded from the FitLog API.
-2. Workout Details: Open a workout's dedicated page to see its
-   description, muscle groups, equipment, difficulty, duration,
-   calories, rating, sets, reps, and instructions.
-3. Today's Plan: Add workouts to a daily plan, with a maximum of
-   five workouts.
-4. Save for Later: Save workouts separately and remove them when no
-   longer needed.
-5. Progress Tracking: Mark planned workouts as completed.
-6. Plan Summary: View the number of exercises, total duration, and
-   estimated calories for the current plan.
-7. Toast Notifications: Get feedback when adding, saving,
-   completing, or removing workouts.
-
-### Technologies Used
-
-- Next.js 15 (App Router)
-- React
-- TypeScript
-- Tailwind CSS
-- React Context API
-- react-hot-toast
-
-#### API
-
-- All workouts: https://api.abcz.workers.dev/api/fitlog
-- A single workout: https://api.abcz.workers.dev/api/fitlog/3
-  (replace 3 with the workout ID)
-
-### State Management
-
-The React Context API shares the workout plan and saved workouts across
-the Navbar, workout details page, and My Plan page. The plan summary
-metrics are calculated from the current plan.
-
-### Deployment
-
-The project can be deployed to Vercel:
-
-1. Push the project to GitHub.
-2. Import the repository into Vercel.
-3. Let Vercel detect the Next.js project.
-4. Deploy and open the generated live URL.
-
-### Future Improvements
-
-- Add workout search and filtering.
-- Add user accounts and cloud-based data syncing.
-- Add more workout categories and progress analytics.
-
-FitLog --- Train hard, log honest.
-
-Github Repo: https://github.com/saifur18234/B14-A06.git
-Live link: https://assignment-6-tau-sand.vercel.app/
+- Github Repo: https://github.com/saifur18234/B14-A06.git
+- Live link: https://assignment-6-tau-sand.vercel.app/
